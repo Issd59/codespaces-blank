@@ -3,16 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Achat via Stripe</title>
+    <title>Bouton Stripe</title>
+    <!-- Si ton autre fichier s’appelle script-bouton.js -->
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
   </head>
   <body style="display:flex; justify-content:center; align-items:center; height:100vh;">
-    <!-- Script Stripe -->
-    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
-
-    <!-- Bouton d'achat -->
     <stripe-buy-button
       buy-button-id="buy_btn_1SJEVs05I2Z1HICQXJzDOHXX"
-      publishable-key="pk_live_51RGOvk05I2Z1HICQrROZA3654src7SsyOnpPCLzOU2D41nAD5AG9xwMPGrDfYT6WFyVKgxMeecaldW8qCeNXazgc00W9ufjL5c"
+      publishable-key="pk_live_..."
     ></stripe-buy-button>
   </body>
 </html>
